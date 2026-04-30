@@ -25,8 +25,12 @@ Group project investigating whether ESG (Environmental, Social, Governance) rati
 | `Final_Project.ipynb` | Final submission notebook |
 | `ds3000_stock_esg_project.pdf` | Presentation on the project |
 
+### Residual Diagnostics — PE Ratio Model
 
-<img width="848" height="367" alt="Screenshot 2026-04-30 at 7 17 41 PM" src="https://github.com/user-attachments/assets/c0338e59-2111-422d-ad0a-53b63a68ecf4" />
+![Residual plot vs. Social Risk for PE Ratio model](residual_social_pe.png)
+*Residuals from the polynomial regression on PE Ratio plotted against Social Risk         
+  subscore. Roughly even spread around zero suggests homoscedasticity for this feature.*
+
 <img width="445" height="617" alt="Screenshot 2026-04-30 at 7 18 16 PM" src="https://github.com/user-attachments/assets/eb5bf3d8-48ec-4b8b-9593-a2ebf3f04789" />
 <img width="428" height="613" alt="Screenshot 2026-04-30 at 7 18 10 PM" src="https://github.com/user-attachments/assets/4dfbeb05-7d6a-4bc2-a449-7eee344a2135" />
 <img width="419" height="317" alt="Screenshot 2026-04-30 at 7 18 18 PM" src="https://github.com/user-attachments/assets/79205294-e606-46bc-8f57-7e571c1d3773" />
