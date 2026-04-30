@@ -33,10 +33,11 @@ Polynomial regression CV scores. Best result: PE Ratio under LOO-CV (R² = 0.136
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="445" height="617" alt="Screenshot 2026-04-30 at 7 18 16 PM" src="https://github.com/user-attachments/assets/eb5bf3d8-48ec-4b8b-9593-a2ebf3f04789" />
-Plot 1: Residual Plot vs. Social Risk — PE Ratio Residuals from the polynomial regression on PE Ratio, plotted against the Social Risk subscore. 
+- Plot 1: Residual Plot vs. Social Risk — PE Ratio Residuals from the polynomial regression on PE Ratio, plotted against the Social Risk subscore. 
 Points scatter roughly evenly above and below zero across the full range of Social Risk values, with no obvious trend or wedge shape, consistent with the 
-homoscedasticity assumption holding for this feature.    
-Plot 2: Residual Plot vs. Governance Risk — PE Ratio Residuals plotted against the Governance Risk subscore. The wider spread at lower 
+homoscedasticity assumption holding for this feature.
+    
+- Plot 2: Residual Plot vs. Governance Risk — PE Ratio Residuals plotted against the Governance Risk subscore. The wider spread at lower 
 Governance Risk values, narrowing as Governance Risk increases, is the classic "funnel" signature of mild heteroscedasticity. This means that the model's 
 error is non-constant across the input space. We flagged this as a limitation; standard log-transformations did not fully resolve it.  
 
