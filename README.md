@@ -26,13 +26,20 @@ Group project investigating whether ESG (Environmental, Social, Governance) rati
 | `ds3000_stock_esg_project.pdf` | Presentation on the project |
 
 ### Residual Diagnostics — PE Ratio Model
+We checked residual plots to test whether our polynomial regression's error structure was random (a key linear-regression assumption). 
+Below: residuals plotted against the two ESG subscores most influential in the final model.     
 
 <img width="848" height="367" alt="Screenshot 2026-04-30 at 7 17 41 PM" src="https://github.com/user-attachments/assets/d8aff31b-818e-4bbc-9853-08b1d18493b5" />
-*Residuals from the polynomial regression on PE Ratio plotted against Social Risk         
-  subscore. Roughly even spread around zero suggests homoscedasticity for this feature.*
+Residuals from the polynomial regression on PE Ratio plotted against Social Risk subscore. Roughly even spread around zero suggests homoscedasticity for this feature.
 
 <img width="445" height="617" alt="Screenshot 2026-04-30 at 7 18 16 PM" src="https://github.com/user-attachments/assets/eb5bf3d8-48ec-4b8b-9593-a2ebf3f04789" />
+Residuals vs. Governance Risk subscore. The slight funnel shape (wider at low values) indicates mild heteroscedasticity - a limitation we flagged; standard transformations did  
+not fully resolve it.
+
 <img width="428" height="613" alt="Screenshot 2026-04-30 at 7 18 10 PM" src="https://github.com/user-attachments/assets/4dfbeb05-7d6a-4bc2-a449-7eee344a2135" />
+
+
+
 <img width="419" height="317" alt="Screenshot 2026-04-30 at 7 18 18 PM" src="https://github.com/user-attachments/assets/79205294-e606-46bc-8f57-7e571c1d3773" />
 
 ## Tech stack
