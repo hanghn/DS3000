@@ -55,6 +55,7 @@ the Environmental and Governance dimensions of ESG.
 Plot 4: Histogram of Residuals (Normality Check) — PE Ratio
 Distribution of residuals from the final PE Ratio polynomial model. The shape is approximately bell-curved with a slight right skew - close enough to normal to support 
 inferential statistics, though the skew further suggests room for non-linear modeling improvements. 
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 
