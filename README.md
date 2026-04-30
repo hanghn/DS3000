@@ -15,7 +15,7 @@ We investigated whether a company's **ESG (Environmental, Social, and Governance
 | File | Phase |
 |---|---|
 | `ProjectGuidelines.ipynb` | Course-provided project guidelines |
-| `Hang_Hang_Project_Proposal.ipynb` | Initial individual proposal |
+| `Project_Proposal.ipynb` | Initial individual proposal |
 | `Project Proposal II - Stock Prices and ESG Score.ipynb` | Refined topic proposal |
 | `Project_Proposal_With_Dataframe and visualization .ipynb` | Proposal with initial data and EDA |
 | `Project Phase_II_Updated.ipynb` | Phase II — analysis |
