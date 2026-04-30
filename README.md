@@ -44,7 +44,14 @@ error is non-constant across the input space. We flagged this as a limitation; s
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 <img width="428" height="613" alt="Screenshot 2026-04-30 at 7 18 10 PM" src="https://github.com/user-attachments/assets/4dfbeb05-7d6a-4bc2-a449-7eee344a2135" />
-Plot 3: Residual Plot vs. Environmental Risk — PE Ratio
+
+- plot 3: Residual Plot vs. Order (Index) — PE Ratio
+Residuals plotted against the observation index (i.e., the order in which companies appear in the dataset).
+Random scatter around zero with no visible trend, cycle, or clustering by position, supporting the independence assumption of linear regression. 
+This check rules out ordering effects: residuals don't increase or oscillate based on where a row sits in the input data, which is especially important as we pulled
+100 companies in batches from the Yahoo Finance API.
+
+- Plot 4: Residual Plot vs. Environmental Risk — PE Ratio
 Residuals plotted against Environmental Risk subscore. Like Governance Risk, this plot  
 shows mild fan-shaped spread, indicating the heteroscedasticity is driven primarily by  
 the Environmental and Governance dimensions of ESG.   
