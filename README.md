@@ -2,11 +2,11 @@
 
 ## Course context
 
-DS 3000 — Foundations of Data Science · Khoury College of Computer Sciences, Northeastern University · Fall 2024
+DS 3000 — Foundations of Data Science · Khoury College of Computer Sciences, Northeastern University · Fall 2024.
 
 ## Project overview
 
-We investigated whether a company's **ESG (Environmental, Social, and Governance) score** is associated with its stock price performance and risk profile. Using publicly available financial and ESG data, the project explores the relationship between sustainability ratings and equity-market behavior.
+Group project investigated whether ESG (Environmental, Social, Governance) ratings predict stock performance for the top 100 S&P 500 companies, using polynomial regression and PCA-based K-Means clustering on Yahoo Finance data, finding that ESG alone has no predictive power on stock prices but reveals interpretable patterns when combined with financial indicators (best signal: PE Ratio with Env × Soc interaction, R² ≈ 0.14).   
 
 ## Repository contents
 
