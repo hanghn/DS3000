@@ -1,6 +1,8 @@
 # DS 3000 — Stock Prices & ESG Score Analysis
 
-Group project for **DS 3000 (Foundations of Data Science)** at Northeastern University, Fall 2024.
+## Course context
+
+DS 3000 — Foundations of Data Science · Khoury College of Computer Sciences, Northeastern University · Fall 2024
 
 ## Project overview
 
@@ -24,6 +26,3 @@ We investigated whether a company's **ESG (Environmental, Social, and Governance
 
 Python 3 · Jupyter · pandas · NumPy · matplotlib · seaborn
 
-## Course context
-
-DS 3000 — Foundations of Data Science · Khoury College of Computer Sciences, Northeastern University · Fall 2024
