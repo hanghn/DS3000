@@ -20,7 +20,7 @@ We investigated whether a company's **ESG (Environmental, Social, and Governance
 | `Project_Proposal_With_Dataframe and visualization .ipynb` | Proposal with initial data and EDA |
 | `Project Phase_II_Updated.ipynb` | Phase II — analysis |
 | `Project_Phase_III (2).ipynb` | Phase III — refinement |
-| **`DS3000_Final_Project.ipynb`** | **Final submission notebook (start here)** |
+| **`Final_Project.ipynb`** | **Final submission notebook (start here)** |
 
 ## Tech stack
 
