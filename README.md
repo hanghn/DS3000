@@ -6,7 +6,10 @@ DS 3000 — Foundations of Data Science · Khoury College of Computer Sciences, 
 
 ## Project overview
 
-Group project investigated whether ESG (Environmental, Social, Governance) ratings predict stock performance for the top 100 S&P 500 companies, using polynomial regression and PCA-based K-Means clustering on Yahoo Finance data, finding that ESG alone has no predictive power on stock prices but reveals interpretable patterns when combined with financial indicators (best signal: PE Ratio with Env × Soc interaction, R² ≈ 0.14).   
+Group project investigating whether ESG (Environmental, Social, Governance) ratings predict stock performance for the top 100 S&P 500 companies, using polynomial regression and PCA-based K-Means clustering on Yahoo Finance data. Finding: ESG alone is a weak signal for stock price (negative R²) and market cap, but PE Ratio is the most ESG-responsive metric — a polynomial model with an Environmental × Social interaction term reaches R² ≈ 0.14 under LOO-CV, the only target where ESG features generalize beyond the training sample.
+
+- "All models are wrong, but some are useful." — George Box
+
 
 ## Repository contents
 
@@ -21,6 +24,12 @@ Group project investigated whether ESG (Environmental, Social, Governance) ratin
 | `Project_Phase_III.ipynb` | Phase III — refinement |
 | `Final_Project.ipynb` | Final submission notebook |
 | `ds3000_stock_esg_project.pdf` | Presentation on the project |
+
+
+<img width="848" height="367" alt="Screenshot 2026-04-30 at 7 17 41 PM" src="https://github.com/user-attachments/assets/c0338e59-2111-422d-ad0a-53b63a68ecf4" />
+<img width="419" height="317" alt="Screenshot 2026-04-30 at 7 18 18 PM" src="https://github.com/user-attachments/assets/79205294-e606-46bc-8f57-7e571c1d3773" />
+<img width="445" height="617" alt="Screenshot 2026-04-30 at 7 18 16 PM" src="https://github.com/user-attachments/assets/eb5bf3d8-48ec-4b8b-9593-a2ebf3f04789" />
+<img width="428" height="613" alt="Screenshot 2026-04-30 at 7 18 10 PM" src="https://github.com/user-attachments/assets/4dfbeb05-7d6a-4bc2-a449-7eee344a2135" />
 
 ## Tech stack
 
