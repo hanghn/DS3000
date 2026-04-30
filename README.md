@@ -29,7 +29,7 @@ Group project investigating whether ESG (Environmental, Social, Governance) rati
 We checked residual plots to test whether our polynomial regression's error structure was random (a key linear-regression assumption). 
 
 <img width="848" height="367" alt="Screenshot 2026-04-30 at 7 17 41 PM" src="https://github.com/user-attachments/assets/d8aff31b-818e-4bbc-9853-08b1d18493b5" />
-Polynomial regression CV scores. Best result: PE Ratio under LOO-CV (R² = 0.136, MSE = 0.266) — the only target where ESG features generalized.  
+Polynomial regression CV scores. Best result: PE Ratio under LOO-CV (R² = 0.136, MSE = 0.266). This means this could be the only target where ESG features generalized.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 Plot 1: Residual Plot vs. Social Risk — PE Ratio Residuals from the polynomial regression on PE Ratio, plotted against the Social Risk subscore. 
