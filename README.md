@@ -29,22 +29,30 @@ Group project investigating whether ESG (Environmental, Social, Governance) rati
 We checked residual plots to test whether our polynomial regression's error structure was random (a key linear-regression assumption). 
 
 <img width="848" height="367" alt="Screenshot 2026-04-30 at 7 17 41 PM" src="https://github.com/user-attachments/assets/d8aff31b-818e-4bbc-9853-08b1d18493b5" />
-Plot 1: Residual Plot vs. Social Risk — PE Ratio                                          
-                                                                                            
-  ▎ Residuals from the polynomial regression on PE Ratio, plotted against the Social Risk 
-  ▎ subscore. Points scatter roughly evenly above and below zero across the full range of   
-  ▎ Social Risk values, with no obvious trend or wedge shape — consistent with the 
-  ▎ homoscedasticity assumption holding for this feature.    
+Plot 1: Residual Plot vs. Social Risk — PE Ratio Residuals from the polynomial regression on PE Ratio, plotted against the Social Risk subscore. 
+Points scatter roughly evenly above and below zero across the full range of Social Risk values, with no obvious trend or wedge shape, consistent with the 
+homoscedasticity assumption holding for this feature.    
+---------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="445" height="617" alt="Screenshot 2026-04-30 at 7 18 16 PM" src="https://github.com/user-attachments/assets/eb5bf3d8-48ec-4b8b-9593-a2ebf3f04789" />
-Residuals vs. Governance Risk subscore. The slight funnel shape (wider at low values) indicates mild heteroscedasticity - a limitation we flagged; standard transformations did  
-not fully resolve it.
+Plot 2: Residual Plot vs. Governance Risk — PE Ratio Residuals plotted against the Governance Risk subscore. The wider spread at lower 
+Governance Risk values, narrowing as Governance Risk increases, is the classic "funnel" signature of mild heteroscedasticity. This means that the model's 
+error is non-constant across the input space. We flagged this as a limitation; standard log-transformations did not fully resolve it.  
 
+---------------------------------------------------------------------------------------------------------------------------------------
 <img width="428" height="613" alt="Screenshot 2026-04-30 at 7 18 10 PM" src="https://github.com/user-attachments/assets/4dfbeb05-7d6a-4bc2-a449-7eee344a2135" />
+Plot 3: Residual Plot vs. Environmental Risk — PE Ratio
+Residuals plotted against Environmental Risk subscore. Like Governance Risk, this plot  
+shows mild fan-shaped spread, indicating the heteroscedasticity is driven primarily by  
+the Environmental and Governance dimensions of ESG.   
 
-
-
+---------------------------------------------------------------------------------------------------------------------------------------
 <img width="419" height="317" alt="Screenshot 2026-04-30 at 7 18 18 PM" src="https://github.com/user-attachments/assets/79205294-e606-46bc-8f57-7e571c1d3773" />
+Plot 4: Histogram of Residuals (Normality Check) — PE Ratio
+Distribution of residuals from the final PE Ratio polynomial model. The shape is approximately bell-curved with a slight right skew - close enough to normal to support 
+inferential statistics, though the skew further suggests room for non-linear modeling improvements. 
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 ## Tech stack
 
