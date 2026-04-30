@@ -14,11 +14,12 @@ We investigated whether a company's **ESG (Environmental, Social, and Governance
 
 | File | Phase |
 |---|---|
+| `Python Style Guide.ipynb` | Course-provided Python style guide |
 | `ProjectGuidelines.ipynb` | Course-provided project guidelines |
 | `Project_Proposal_With_Dataframe.ipynb` | Initial individual proposal |
 | `Project_Phase_II_Updated__1_ (1).ipynb` | Phase II — analysis |
 | `Project_Phase_III.ipynb` | Phase III — refinement |
-| **`Final_Project.ipynb`** | **Final submission notebook (start here)** |
+| `Final_Project.ipynb` | **Final submission notebook (start here)** |
 
 ## Tech stack
 
