@@ -20,11 +20,6 @@ We investigated whether a company's **ESG (Environmental, Social, and Governance
 | `Project_Phase_III (2).ipynb` | Phase III — refinement |
 | **`DS3000_Final_Project.ipynb`** | **Final submission notebook (start here)** |
 
-### Other files
-
-- `example_report_Redacted.pdf` — example final report provided by the course
-- `bar plot.png`, `scatter.png` — visualization outputs
-
 ## Tech stack
 
 Python 3 · Jupyter · pandas · NumPy · matplotlib · seaborn
