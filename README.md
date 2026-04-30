@@ -52,7 +52,7 @@ This check rules out ordering effects: residuals don't increase or oscillate bas
 100 companies in batches from the Yahoo Finance API.
 
 - Plot 4: Residual Plot vs. Environmental Risk — PE Ratio
-Residuals plotted against Environmental Risk subscore. Like Governance Risk, this plot shows mild fan-shaped spread, indicating the heteroscedasticity is driven primarily by  
+Residuals plotted against Environmental Risk subscore. Like Governance Risk, this plot shows a fan-shaped spread, indicating the heteroscedasticity is driven primarily by  
 the Environmental and Governance dimensions of ESG.   
 
 ---------------------------------------------------------------------------------------------------------------------------------------
