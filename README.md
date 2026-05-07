@@ -2,7 +2,7 @@
 
 ## Course context
 
-DS 3000 — Foundations of Data Science · Khoury College of Computer Sciences, Northeastern University · Fall 2024.
+DS 3000 — Foundations of Data Science · Fall 2024.
 
 ## Project overview
 
