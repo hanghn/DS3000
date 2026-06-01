@@ -1,8 +1,8 @@
-# DS 3000 — Stock Prices & ESG Score Analysis
+# Stock Prices & ESG Score Analysis Project
 
 ## Course context
 
-DS 3000 — Foundations of Data Science · Fall 2024.
+DS 3000 — Foundations of Data Science
 
 ## Project overview
 
