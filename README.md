@@ -1,8 +1,4 @@
-# Stock Prices & ESG Score Analysis Project
-
-## Course context
-
-DS 3000 — Foundations of Data Science
+# Stock Prices & ESG Score Analysis
 
 ## Project overview
 
