@@ -6,21 +6,6 @@ Group project investigating whether ESG (Environmental, Social, Governance) rati
 
 - "All models are wrong, but some are useful." — George Box
 
-
-## Repository contents
-
-### Notebooks (chronological order)
-
-| File | Phase |
-|---|---|
-| `Python Style Guide.ipynb` | Course-provided Python style guide |
-| `ProjectGuidelines.ipynb` | Course-provided project guidelines |
-| `Project_Proposal_With_Dataframe.ipynb` | Initial individual proposal |
-| `Project_Phase_II_Updated__1_ (1).ipynb` | Phase II — analysis |
-| `Project_Phase_III.ipynb` | Phase III — refinement |
-| `Final_Project.ipynb` | Final submission notebook |
-| `ds3000_stock_esg_project.pdf` | Presentation on the project |
-
 ### Residual Diagnostics — PE Ratio Model
 We checked residual plots to test whether our polynomial regression's error structure was random (a key linear-regression assumption). 
 
